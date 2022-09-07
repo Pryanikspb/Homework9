@@ -8,7 +8,5 @@ public class Main {
         Author mikhailBulgakov = new Author("Mikhail", "Bulgakov");
         Book dogsHeart = new Book("Dogs Heart", 1920, mikhailBulgakov);
         System.out.println(dogsHeart);
-
-        System.out.println("В библиотеке есть книги авторов: " + fedorDostoevsky + ", " + mikhailBulgakov);
     }
 }
